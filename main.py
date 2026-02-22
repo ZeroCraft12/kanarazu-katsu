@@ -170,4 +170,4 @@ print("File submission_lgbm_optimized.csv berhasil dibuat! Siap disubmit.")
 print(submission_df.head(15))
 
 #hooreeeee
-print("kanarazu katsu")
+print("kanarazu katsu, im tired")
