@@ -168,3 +168,6 @@ submission_df = pd.DataFrame(submission_rows)
 submission_df.to_csv('submission_lgbm_optimized.csv', index=False)
 print("File submission_lgbm_optimized.csv berhasil dibuat! Siap disubmit.")
 print(submission_df.head(15))
+
+#hooreeeee
+print("kanarazu katsu")
