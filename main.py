@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd #SKOR 6,2
 import numpy as np
 import lightgbm as lgb
 from sklearn.metrics import mean_squared_error
