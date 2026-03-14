@@ -19,7 +19,7 @@ dates = pd.date_range(start='2022-01-01', end='2025-07-01', freq='MS')
 
 # Tren naik + Musiman (Peak di akhir tahun)
 trend_freq = np.linspace(140, 220, len(dates))
-seasonality = np.sin((dates.month - 3) * (2 * np.pi / 12)) * 25 
+seasonality = np.sin((dates.month.to_numpy() - 3) * (2 * np.pi / 12)) * 25 
 hist_freq = trend_freq + seasonality + np.random.normal(0, 5, len(dates))
 
 # Severity baseline 40-45 Juta
